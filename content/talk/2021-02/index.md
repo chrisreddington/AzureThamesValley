@@ -8,8 +8,8 @@ abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-02-16T18:30:00Z"
-date_end: "2021-02-16T20:30:00Z"
+date: "2021-02-17T18:30:00Z"
+date_end: "2021-02-17T20:30:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
