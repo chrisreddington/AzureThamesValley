@@ -1,0 +1,85 @@
+#dummy push
+name: Staging (Dev)
+on: 
+  push:
+      branches:
+        - dev
+jobs:
+  compressor:
+    name: calibreapp/image-actions
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+      - name: Compress Images
+        id: calibre
+        uses: calibreapp/image-actions@main
+        with:
+          githubToken: ${{ secrets.GITHUB_TOKEN }}
+          compressOnly: true
+      - name: Create New Pull Request If Needed
+        if: steps.calibre.outputs.markdown != ''
+        uses: peter-evans/create-pull-request@v3
+        with:
+          title: Compressed Images
+          branch-suffix: timestamp
+          commit-message: Compressed Images
+          body: ${{ steps.calibre.outputs.markdown }}
+  build:
+    needs: [compressor]
+    runs-on: ubuntu-latest
+    steps:            
+    - uses: actions/checkout@v2
+    - name: Checkout submodules
+      shell: bash
+      run: |
+        auth_header="$(git config --local --get http.https://github.com/.extraheader)"
+        git submodule sync --recursive
+        git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=  
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: '0.62.2'
+        # extended: true
+    - name: Replace tokens
+      uses: cschleiden/replace-tokens@v1.0
+      with:
+        tokenPrefix: '#{' # optional, default is #{
+        tokenSuffix: '}#' # optional, default is }#
+        files: '["config.toml"]'
+      env:
+        hostname: 'https://dev.azurethamesvalley.com/'
+    - name: Build
+      run: hugo --minify    
+    - name: Upload website as Artifact
+      uses: actions/upload-artifact@v1
+      with:
+        name: website
+        path: /home/runner/work/azurethamesvalley/azurethamesvalley/public
+  publish-azure:    
+    environment:
+      name: staging.azure
+      url: https://dev.azurethamesvalley.com 
+    runs-on: ubuntu-latest
+    needs: build
+    steps:    
+    - name: Download website changes
+      uses: actions/download-artifact@v1
+      with:
+        name: website
+    - name: Azure Login
+      uses: azure/login@v1
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS }}     
+    - name: Azure CLI script
+      uses: azure/CLI@v1
+      with:
+        azcliversion: 2.0.72
+        inlineScript: |
+          az storage blob upload-batch --account-name azurethamesvalleydev -d '$web' -s website
+    - name: Azure CLI script
+      uses: azure/CLI@v1
+      with:
+        azcliversion: 2.0.72
+        inlineScript: | 
+          az cdn endpoint purge --content-paths  "/*" --profile-name "azurethamesvalley" --name "dev-azurethamesvalley" --resource-group "azurethamesvalley"

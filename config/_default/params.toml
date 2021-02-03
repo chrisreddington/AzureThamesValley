@@ -67,9 +67,9 @@ appointment_url = "https://calendly.com"
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "meetup", icon_pack = "fab", name = "Keep up with events", link = "https://twitter.com/Twitter"},
-  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/Twitter"},
-  {icon = "linkedin-in", icon_pack = "fab", name = "Join Group", link = "https://twitter.com/Twitter"}
+  {icon = "meetup", icon_pack = "fab", name = "Keep up with events", link = "https://www.meetup.com/Azure-Thames-Valley/"},
+  {icon = "twitter", icon_pack = "fab", name = "DM Me", link = "https://twitter.com/azurethames"},
+  {icon = "linkedin-in", icon_pack = "fab", name = "Join Group", link = "https://www.linkedin.com/groups/12205105/"}
   ]
 
 # Display a map.
