@@ -39,7 +39,7 @@ jobs:
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: '0.62.2'
+        hugo-version: '0.80.0'
         extended: true
     - name: Replace tokens
       uses: cschleiden/replace-tokens@v1.0
