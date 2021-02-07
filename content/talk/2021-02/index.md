@@ -1,10 +1,10 @@
 ---
-title: Feb 2021 Meetup
+title: Storage in Azure
 event: Feb 2021 Meetup
 event_url: https://www.meetup.com/Azure-Thames-Valley/
 location: Reading, United Kingdom
-summary: Further details, coming soon!
-abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
+summary: Storage in Azure is a minefield. There’s queues, files, blobs, tables. Then there is hot, cold, archive, standard, premium, ultra. Storage can be version 1 or version 2 and a ‘blob’ storage account doesn’t even allow you to store all types of blob! The different options have different prices, performance, and availability. So having knowledge of how all of these storage options work, along with their limitations, will ensure that you choose the right platform, for the right data.
+abstract: "Storage in Azure is a minefield. There’s queues, files, blobs, tables. Then there is hot, cold, archive, standard, premium, ultra. Storage can be version 1 or version 2 and a ‘blob’ storage account doesn’t even allow you to store all types of blob! The different options have different prices, performance, and availability. So having knowledge of how all of these storage options work, along with their limitations, will ensure that you choose the right platform, for the right data."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -22,7 +22,7 @@ tags: []
 featured: false
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: 'Storage in Azure, February 17th 2021'
   focal_point: Right
 
 links:
