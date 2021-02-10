@@ -1,5 +1,5 @@
 ---
-title: Storage in Azure
+title: The Azure Storage Minefield
 event: Feb 2021 Meetup
 event_url: https://www.meetup.com/Azure-Thames-Valley/
 location: Reading, United Kingdom
@@ -22,7 +22,7 @@ tags: []
 featured: false
 
 image:
-  caption: 'Storage in Azure, February 17th 2021'
+  caption: 'The Azure Storage Minefield, February 17th 2021'
   focal_point: Right
 
 links:
