@@ -1,10 +1,10 @@
 ---
-title: Mar 2021 Meetup
+title: "Security & Compliance: Core Concepts Explained"
 event: Mar 2021 Meetup
 event_url: https://www.meetup.com/Azure-Thames-Valley/
 location: Reading, United Kingdom
-summary: Further details, coming soon!
-abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
+summary: Everyone has heard the term "Security & Compliance" but how many of us understand what it actually means? In this session, Alan will explain the concepts by relating back to risks and scenarios to illustrate what they mean to you and your organisation.
+abstract: Everyone has heard the term "Security & Compliance" but how many of us understand what it actually means? In this session, Alan will explain the concepts by relating back to risks and scenarios to illustrate what they mean to you and your organisation.
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -13,7 +13,7 @@ date_end: "2021-03-16T20:30:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2021-02-15T00:00:00Z"
 
 authors: []
 tags: []
@@ -22,7 +22,7 @@ tags: []
 featured: false
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
+  caption: 'Security & Compliance: Core Concepts Explained, March 16th 2021'
   focal_point: Right
 
 links:
