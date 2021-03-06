@@ -1,6 +1,6 @@
 ---
-title: "Azure Thames Valley Cloud Challenge"
-event: "Azure Thames Valley Cloud Challenge"
+title: "Azure Thames Valley Cloud Skills Challenge"
+event: "Azure Thames Valley Cloud Skills Challenge"
 event_url: https://www.meetup.com/Azure-Thames-Valley/messages/boards/thread/53153062
 location: Virtual
 summary: "We have a great #learning opportunity for you! We've partnered with Microsoft to bring the Cloud Skills Challenge to Azure Thames Valley! Prizes & Exam Opportunities available! [Test](hello) "
