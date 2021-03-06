@@ -1,15 +1,15 @@
 ---
-title: "Hybrid Azure Management"
-event: "Hybrid Azure Management"
-event_url: https://www.meetup.com/Azure-Thames-Valley/
+title: "Azure Thames Valley Cloud Challenge"
+event: "Azure Thames Valley Cloud Challenge"
+event_url: https://www.meetup.com/Azure-Thames-Valley/messages/boards/thread/53153062
 location: Virtual
-summary: "Increasingly organisations are looking at expanding their environments across multiple platforms, which can make management of your servers and workloads more complex. In this session I will talk about how tools such as Windows Admin Centre, Azure Arc, Azure Update Management can help you manage those environments as well as talk about some tools you can use Azure to extend your on prem capabilities."
-abstract: "Increasingly organisations are looking at expanding their environments across multiple platforms, which can make management of your servers and workloads more complex. In this session I will talk about how tools such as Windows Admin Centre, Azure Arc, Azure Update Management can help you manage those environments as well as talk about some tools you can use Azure to extend your on prem capabilities."
+summary: "We have a great #learning opportunity for you! We've partnered with Microsoft to bring the Cloud Skills Challenge to Azure Thames Valley! Prizes & Exam Opportunities available! [Test](hello) "
+abstract: "We are very excited to share an amazing opportunity for you to learn about Azure; an opportunity to gain a Microsoft Exam Voucher and win prizes! Azure Thames Valley is taking the part in the Cloud Skills Challenge! We have partnered with Microsoft to bring you this exciting opportunity to build your cloud skills at your own pace!"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-04-20T18:30:00Z"
-date_end: "2021-04-20T20:30:00Z"
+date: "2021-03-03T00:01:00Z"
+date_end: "2021-03-28T23:59:59Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).

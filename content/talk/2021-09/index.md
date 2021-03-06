@@ -1,15 +1,15 @@
 ---
-title: "Hybrid Azure Management"
-event: "Hybrid Azure Management"
+title: Sep 2021 Meetup
+event: Sep 2021 Meetup
 event_url: https://www.meetup.com/Azure-Thames-Valley/
-location: Virtual
-summary: "Increasingly organisations are looking at expanding their environments across multiple platforms, which can make management of your servers and workloads more complex. In this session I will talk about how tools such as Windows Admin Centre, Azure Arc, Azure Update Management can help you manage those environments as well as talk about some tools you can use Azure to extend your on prem capabilities."
-abstract: "Increasingly organisations are looking at expanding their environments across multiple platforms, which can make management of your servers and workloads more complex. In this session I will talk about how tools such as Windows Admin Centre, Azure Arc, Azure Update Management can help you manage those environments as well as talk about some tools you can use Azure to extend your on prem capabilities."
+location: Reading, United Kingdom
+summary: Further details, coming soon!
+abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-04-20T18:30:00Z"
-date_end: "2021-04-20T20:30:00Z"
+date: "2021-09-21T18:30:00Z"
+date_end: "2021-09-21T20:30:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).

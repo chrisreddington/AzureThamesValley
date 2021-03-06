@@ -2,7 +2,7 @@
 title: "Security & Compliance: Core Concepts Explained"
 event: Mar 2021 Meetup
 event_url: https://www.meetup.com/Azure-Thames-Valley/
-location: Reading, United Kingdom
+location: Virtual
 summary: Everyone has heard the term "Security & Compliance" but how many of us understand what it actually means? In this session, Alan will explain the concepts by relating back to risks and scenarios to illustrate what they mean to you and your organisation.
 abstract: Everyone has heard the term "Security & Compliance" but how many of us understand what it actually means? In this session, Alan will explain the concepts by relating back to risks and scenarios to illustrate what they mean to you and your organisation.
 
