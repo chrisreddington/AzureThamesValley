@@ -1,10 +1,10 @@
 ---
-title: May 2021 Meetup
-event: May 2021 Meetup
-event_url: https://www.meetup.com/Azure-Thames-Valley/
+title: Introduction to Blockchain and Blockchain on Azure
+event: Introduction to Blockchain and Blockchain on Azure
+event_url: https://www.meetup.com/Azure-Thames-Valley/events/277008287/
 location: Virtual
-summary: Further details, coming soon!
-abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
+summary: An introduction to Blockchain technology. An overview of how to implement Blockchain applications and deploy them to Azure
+abstract: "An introduction to Blockchain technology. An overview of how to implement Blockchain applications and deploy them to Azure"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -20,10 +20,6 @@ tags: []
 
 # Is this a featured talk? (true/false)
 featured: false
-
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
-  focal_point: Right
 
 links:
 #- icon: twitter

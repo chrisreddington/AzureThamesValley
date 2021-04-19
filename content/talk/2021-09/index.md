@@ -1,10 +1,10 @@
 ---
-title: Sep 2021 Meetup
+title: An evening of Lightning Talks
 event: Sep 2021 Meetup
 event_url: https://www.meetup.com/Azure-Thames-Valley/
 location: Reading, United Kingdom
-summary: Further details, coming soon!
-abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
+summary: "Keen to submit a Lightning Talk session? Head over to our Sessionize Page at https://sessionize.com/azure-thames-valley/"
+abstract: "Keen to submit a Lightning Talk session? Head over to our Sessionize Page at https://sessionize.com/azure-thames-valley/"
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -20,10 +20,6 @@ tags: []
 
 # Is this a featured talk? (true/false)
 featured: false
-
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
-  focal_point: Right
 
 links:
 #- icon: twitter
