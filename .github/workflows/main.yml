@@ -3,6 +3,10 @@ on:
   push:
       branches:
         - main
+env:
+  HUGO_VERSION: '0.92.2'
+  AZURE_CLI_VERSION: '2.33.0'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -17,7 +21,7 @@ jobs:
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: '0.80.0'
+        hugo-version: ${{ env.HUGO_VERSION }}
         extended: true
     - name: Replace tokens
       uses: cschleiden/replace-tokens@v1.0
@@ -37,6 +41,9 @@ jobs:
   publish:    
     environment:
       name: production.azure
+    permissions:
+          id-token: write
+          contents: read
     runs-on: ubuntu-latest
     needs: build
     steps:    
@@ -47,16 +54,18 @@ jobs:
     - name: Azure Login
       uses: azure/login@v1
       with:
-        creds: ${{ secrets.AZURE_CREDENTIALS }}     
+        client-id: ${{ secrets.AZURE_CLIENT_ID }}
+        tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+        subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}   
     - name: Azure CLI script
       uses: azure/CLI@v1
       with:
-        azcliversion: 2.0.72
+        azcliversion: ${{ env.AZURE_CLI_VERSION }}
         inlineScript: |
-          az storage blob upload-batch --account-name azurethamesvalleyprod  -d '$web' -s website
+          az storage blob upload-batch --account-name azurethamesvalleyprod  -d '$web' -s website --auth-mode login
     - name: Azure CLI script
       uses: azure/CLI@v1
       with:
-        azcliversion: 2.0.72
+        azcliversion: ${{ env.AZURE_CLI_VERSION }}
         inlineScript: |
           az cdn endpoint purge --content-paths  "/*" --profile-name "azurethamesvalley" --name "azurethamesvalleyprod" --resource-group "azurethamesvalley"
