@@ -10,6 +10,9 @@ abstract: "The security function in most development environments is broken. Wit
 
 In this talk, we’ll show how, (with very little effort) to shift security left into code, enabling automated scanning and highlighting of security risks at build time, with helpful remediation advice for all. Knowing is the first step to improving, and automation makes knowing easy. You bring your CI pipeline, we’ll show you how."
 
+# Optional external URL for project (replaces project detail page).
+external_link: https://www.youtube.com/watch?v=lqnblZWClZs
+
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
 date: "2021-06-15T18:30:00Z"

@@ -15,6 +15,6 @@ tags:
 date: "2021-04-20T18:30:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: https://www.meetup.com/Azure-Thames-Valley/events/276005235/
+external_link: https://www.youtube.com/watch?v=n0XNy0f24kI
 
 ---

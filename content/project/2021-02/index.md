@@ -8,7 +8,7 @@ tags:
 date: "2021-02-17T18:30:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: https://www.meetup.com/Azure-Thames-Valley/events/276005163/
+external_link: https://www.youtube.com/watch?v=PVzxmr3Kod8
 
 #image:
 #  caption: Photo by Toa Heftiba on Unsplash

@@ -1,10 +1,13 @@
 ---
-title: Jul 2021 Meetup
-event: Jul 2021 Meetup
-event_url: https://www.meetup.com/Azure-Thames-Valley/
+title: How GitHub can help in planning, building and deploying a podcast/blog site
+event: July 2021 Meetup
+event_url: https://www.meetup.com/Azure-Thames-Valley/events/277008305/
 location: Virtual
-summary: Further details, coming soon!
-abstract: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam."
+summary: "Chris is the producer and host of the podcast, CloudWithChris.com. He uses GitHub to version control the website's source code, GitHub Actions to build and deploy the website to Azure and other clouds, and GitHub Issues/Boards to plan the episode backlog. In this session, we'll explore how GitHub can be used to deploy your own workloads to Azure."
+abstract: "Chris is the producer and host of the podcast, CloudWithChris.com. He uses GitHub to version control the website's source code, GitHub Actions to build and deploy the website to Azure and other clouds, and GitHub Issues/Boards to plan the episode backlog. In this session, we'll explore how GitHub can be used to deploy your own workloads to Azure."
+
+# Optional external URL for project (replaces project detail page).
+external_link: https://www.youtube.com/watch?v=1JYdGHMC9ic
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

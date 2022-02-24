@@ -19,11 +19,6 @@
   weight = 30
 
 [[main]]
-  name = "Topics"
-  url = "#tags"
-  weight = 40
-
-[[main]]
   name = "Code of Conduct"
   url = "conduct"
   weight = 50

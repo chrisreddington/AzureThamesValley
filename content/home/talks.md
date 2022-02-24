@@ -8,7 +8,7 @@ active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
 title = "Upcoming Events"
-subtitle = "SESSIONS BY THE COMMUNITY FOR THE COMMUNITY"
+subtitle = "*ANNOUNCEMENT* We are taking a short break from running meetups. Not to worry though, we won’t be gone long – May will see us springing back into action so stay tuned for updates! In the meantime, feel free to catch up on all past sessions below."
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
