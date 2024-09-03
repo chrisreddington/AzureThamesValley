@@ -64,7 +64,7 @@ jobs:
     needs: build
     steps:    
     - name: Download website changes
-      uses: actions/download-artifact@v1
+      uses: actions/download-artifact@v4.1.7
       with:
         name: website
     - name: Azure Login
